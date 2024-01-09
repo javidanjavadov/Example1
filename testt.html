@@ -4,30 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .p1{
+            font-size: 70px; 
+            color:black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; transition: 1s;
+        }
+        #div1 {
+            display: flex; border: 6px solid black; justify-content: space-between; align-items: center;
+        }
+        .img {
+            border-right: 6px solid black; width: 300px; transition: 1s;
+        }
+        .img:hover {
+            width: 500px;
+        }
+        .ahr {
+            font-size: 30px; width: 1500px; text-align: center; color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-decoration:none; padding-inline: 110px; transition: 0.7s;
+        }
+        .ahr:hover {
+            font-size: 35px;
+        }
+        .p1:hover {
+            font-size: 90px;
+        }
+    </style>
 </head>
 <body>
-    <p style="font-size: 70px; color:black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center;">Xəbərlər</p>
-    <div id="1" style="display: flex; border: 6px solid black; justify-content: space-between; align-items: center;">
-        <img src="https://cdn.trend.az/2020/02/22/naxcivan_ali_maclis_220220.jpg" style="border-right: 6px solid black; width: 300px;" alt="">
-        <a href="https://report.az/daxili-siyaset/naxcivan-ali-meclisi-terefinden-il-erzinde-17-qerar-qebul-olunub-2-qanun-legv-edilib/" style="font-size: 30px; text-align: center; color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-decoration:none; padding-inline: 220px;" target=”_blank”>Naxçıvan Ali Məclisi tərəfindən il ərzində 17 qərar qəbul olunub, 2 qanun ləğv edilib</a>
+    <p class="p1">Xəbərlər</p>
+    <div id="div1">
+        <img src="https://cdn.trend.az/2020/02/22/naxcivan_ali_maclis_220220.jpg" class="img" alt="">
+        <a href="https://report.az/daxili-siyaset/naxcivan-ali-meclisi-terefinden-il-erzinde-17-qerar-qebul-olunub-2-qanun-legv-edilib/" class="ahr" target=”_blank”>Naxçıvan Ali Məclisi tərəfindən il ərzində 17 qərar qəbul olunub, 2 qanun ləğv edilib</a>
     </div>
     <br/>
     <br/>
-    <div id="1" style="display: flex; border: 6px solid black; justify-content: space-between; align-items: center;">
-        <img src="https://economy.gov.az/storage/media/gallery/6172/hGcAIKKn70yxGs0QRWS8JEvAKBlAEPc63pEoz2jo.jpg" style="border-right: 6px solid black; width: 300px;" alt="">
-        <a href="https://report.az/maliyye-xeberleri/azerbaycan-ve-ebrd-cop29-cercivesinde-emekdasligi-muzakire-edib/" style="font-size: 30px; text-align: center; color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-decoration:none; padding-inline: 360px;" target=”_blank”>EBRD COP29 çərçivəsində Azərbaycana dəstək verməyə hazırdır</a>
+    <div id="div1">
+        <img src="https://economy.gov.az/storage/media/gallery/6172/hGcAIKKn70yxGs0QRWS8JEvAKBlAEPc63pEoz2jo.jpg" class="img" alt="">
+        <a href="https://report.az/maliyye-xeberleri/azerbaycan-ve-ebrd-cop29-cercivesinde-emekdasligi-muzakire-edib/" class="ahr" target=”_blank”>EBRD COP29 çərçivəsində Azərbaycana dəstək verməyə hazırdır</a>
     </div>
     <br/>
     <br/>
-    <div id="1" style="display: flex; border: 6px solid black; justify-content: space-between; align-items: center;">
-        <img src="https://img.freepik.com/free-photo/cropped-photo-boy-s-shoulder-with-stick-bandaid-vaccination_1157-51964.jpg?w=740&t=st=1704814872~exp=1704815472~hmac=25e9882fbfeb054f5359c36cca9de0eff5b4cde42fccecca550e0b7c24b87e82" style="border-right: 6px solid black; width: 300px;" alt="">
-        <a href="https://report.az/sehiyye-xeberler/son-bir-ayda-celilabadda-1-962-usaga-qizilcaya-qarsi-peyvend-vurulub/" style="font-size: 30px; text-align: center; color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-decoration:none; padding-inline: 300px;" target=”_blank”>Son bir ayda Cəlilabadda 1 962 uşağa qızılcaya qarşı peyvənd vurulub</a>
+    <div id="div1">
+        <img src="https://img.freepik.com/free-photo/cropped-photo-boy-s-shoulder-with-stick-bandaid-vaccination_1157-51964.jpg?w=740&t=st=1704814872~exp=1704815472~hmac=25e9882fbfeb054f5359c36cca9de0eff5b4cde42fccecca550e0b7c24b87e82" class="img"  alt="">
+        <a href="https://report.az/sehiyye-xeberler/son-bir-ayda-celilabadda-1-962-usaga-qizilcaya-qarsi-peyvend-vurulub/" class="ahr" target=”_blank”>Son bir ayda Cəlilabadda 1 962 uşağa qızılcaya qarşı peyvənd vurulub</a>
     </div>
     <br/>
     <br/>
-    <div id="1" style="display: flex; border: 6px solid black; justify-content: space-between; align-items: center;">
-        <img src="https://res.cloudinary.com/hb0stl6qx/image/upload/w_900,c_scale,q_auto,f_auto,dpr_auto/v1683793364/AIN/netanyahu_gallant_may_10.jpg" style="border-right: 6px solid black; width: 300px;" alt="">
-        <a href="https://report.az/diger-olkeler/blinken-ve-netanyahu-qezzadaki-munaqiseni-muzakire-edibler/" style="font-size: 30px; text-align: center; color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-decoration:none; padding-inline: 370px;" target=”_blank”>Blinkenlə Netanyahunun görüşünün təfərrüatları məlum olub</a>
+    <div id="div1">
+        <img src="https://res.cloudinary.com/hb0stl6qx/image/upload/w_900,c_scale,q_auto,f_auto,dpr_auto/v1683793364/AIN/netanyahu_gallant_may_10.jpg" class="img"  alt="">
+        <a href="https://report.az/diger-olkeler/blinken-ve-netanyahu-qezzadaki-munaqiseni-muzakire-edibler/" class="ahr"  target=”_blank”>Blinkenlə Netanyahunun görüşünün təfərrüatları məlum olub</a>
     </div>
     
 </body>
