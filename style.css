@@ -1,0 +1,22 @@
+.p1{
+    font-size: 70px; 
+    color:black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; transition: 1s;
+}
+#div1 {
+    display: flex; border: 6px solid black; justify-content: space-between; align-items: center;
+}
+.img {
+    border-right: 6px solid black; width: 300px; transition: 1s;
+}
+.img:hover {
+    width: 500px;
+}
+.ahr {
+    font-size: 30px; width: 1500px; text-align: center; color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-decoration:none; padding-inline: 110px; transition: 0.7s;
+}
+.ahr:hover {
+    font-size: 35px;
+}
+.p1:hover {
+    font-size: 90px;
+}
